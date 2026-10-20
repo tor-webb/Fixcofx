@@ -1,0 +1,23 @@
+.ticket-grid {
+  display: grid;
+  gap: var(--sp-4);
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 900px) {
+  .ticket-grid { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); }
+}
+
+.ticket-grid h2 { margin-top: var(--sp-4); }
+.ticket-grid h2:first-child { margin-top: 0; }
+
+.ticket-grid label { display: block; margin-top: var(--sp-3); }
+.ticket-grid .input { margin-top: var(--sp-1); }
+.ticket-grid .seg { margin: var(--sp-2) 0 var(--sp-3); }
+.ticket-grid .btn-primary { width: 100%; margin-top: var(--sp-4); }
+
+.quote { margin: var(--sp-3) 0; }
+.quote p { margin: 0 0 var(--sp-1); }
+
+@media (max-width: 899px) {
+  .ticket-grid { gap: var(--sp-3); }
+}

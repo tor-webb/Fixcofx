@@ -1,0 +1,10 @@
+{
+  "name": "Fiscofx",
+  "short_name": "Fiscofx",
+  "description": "Multi-asset trading platform (demo mode, simulated data).",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#08111F",
+  "theme_color": "#08111F",
+  "icons": []
+}
